@@ -1,10 +1,10 @@
 .content {
   text-align: center;
+  margin: 30vh auto;
 }
 
 #typePad, .pre {
   display: inline-block;
-  margin: 30vh auto;
   padding: 10px 20px;
   font-size: 7vh;
   font-family: monospace;
