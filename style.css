@@ -1,22 +1,12 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.header {
-  width: 100%;
-  height: 5vh;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.pre {
-  margin-left: 18vh !important;
+.content {
+  text-align: center;
 }
 
 #typePad, .pre {
   display: inline-block;
   margin: 30vh auto;
   padding: 10px 20px;
-  font-size: 6vh;
+  font-size: 7vh;
   font-family: monospace;
   text-align: center;
 }
@@ -40,4 +30,33 @@
 .cursor{
   opacity: 1;
   animation: blink 0.7s infinite;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 8vh;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer__link {
+  line-height: 10vh;
+}
+
+.footer__link__img {
+  display: inline-block;
+  width: 30px;
+}
+
+.footer__logo {
+  position: fixed;
+  right: 1vh;
+  bottom: 1vh;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.footer__logo__bold {
+  font-weight: 400;
 }
