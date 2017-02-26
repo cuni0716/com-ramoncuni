@@ -50,6 +50,7 @@
 }
 
 .footer__logo {
+  font-size: 10px;
   position: fixed;
   right: 1vh;
   bottom: 1vh;
