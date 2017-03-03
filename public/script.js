@@ -1,4 +1,5 @@
 window.onload = function () {
+  gAnalyticsPageView();
   init();
 }
 
@@ -11,6 +12,9 @@ function init() {
   });
 }
 
+function gAnalyticsPageView() {
+  ga('send', 'pageview');
+}
 
 function gAnalyticsButton(action, label) {
   ga('send', 'event', 'button', action, label);
