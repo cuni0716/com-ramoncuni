@@ -10,3 +10,9 @@ function init() {
     cursorClass: 'cursor'
   });
 }
+
+
+function gAnalyticsButton(action, label) {
+  console.log(action, label);
+  ga('send', 'event', 'button', action, label);
+}
