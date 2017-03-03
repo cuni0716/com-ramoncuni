@@ -6,13 +6,17 @@
 #typePad, .pre {
   display: inline-block;
   padding: 10px 20px;
-  font-size: 7vh;
+  font-size: 6vh;
   font-family: monospace;
   text-align: center;
 }
 
 #typePad .sentence {
   display: none;
+}
+
+span {
+  line-height: 75px;
 }
 
 @keyframes blink {
@@ -46,10 +50,11 @@
 
 .footer__link__img {
   display: inline-block;
-  width: 30px;
+  width: 35px;
 }
 
 .footer__logo {
+  line-height: normal;
   font-size: 10px;
   position: fixed;
   right: 1vh;
