@@ -1,3 +1,17 @@
+nav.header {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.header__icon {
+  padding-left: 10px;
+  line-height: 70px;
+  font-size: 5vh;
+  font-weight: lighter;
+  color: black;
+}
+
 .content {
   text-align: center;
   margin: 30vh auto;

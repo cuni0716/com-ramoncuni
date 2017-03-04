@@ -16,6 +16,6 @@ function gAnalyticsPageView() {
   ga('send', 'pageview');
 }
 
-function gAnalyticsButton(action, label) {
-  ga('send', 'event', 'button', action, label);
+function gAnalyticsLink(action, label) {
+  ga('send', 'event', 'link', action, label);
 }
