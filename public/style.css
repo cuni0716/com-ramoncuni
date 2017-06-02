@@ -45,25 +45,60 @@ nav.header {
   margin-top: 120px;
 }
 
-.content__cv__h1 {
-  font-family: monospace;
-  font-size: 35px;
-  margin-left: 20px;
-  margin-top: 60px;
+/* MOBILE */
+@media (max-width: 700px) {
+  .content__cv__h1 {
+    font-family: monospace;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
 }
 
-.content__cv__h2 {
-  font-family: monospace;
-  font-size: 25px;
-  margin-left: 30px;
-  margin-top: 20px;
+@media (max-width: 700px) {
+  .content__cv__h2 {
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
 }
 
-.content__cv__p {
-  font-family: monospace;
-  font-size: 12px;
-  margin-left: 40px;
-  margin-top: 20px;
+@media (max-width: 700px) {
+  .content__cv__p {
+    font-family: monospace;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+/* DESKTOP AND TABLET */
+@media (min-width: 700px) {
+  .content__cv__h1 {
+    font-family: monospace;
+    font-size: 45px;
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 700px) {
+  .content__cv__h2 {
+    font-family: monospace;
+    font-size: 35px;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .content__cv__p {
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
 }
 
 .content__cv__p__link {
