@@ -1,6 +1,8 @@
 window.onload = function () {
   gAnalyticsPageView();
-  init();
+  if (window.location.pathname === '/') {
+    init();
+  }
 }
 
 

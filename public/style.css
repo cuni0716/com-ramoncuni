@@ -1,4 +1,7 @@
 nav.header {
+  position: fixed;
+  top: 0;
+  background-color: #FFFFFF;
   width: 100%;
   height: 70px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -12,9 +15,63 @@ nav.header {
   color: #000000;
 }
 
+.header__icon__home {
+  position: absolute;
+  right: 10px;
+  line-height: 70px;
+  font-size: 5vh;
+  font-weight: lighter;
+  color: #000000;
+}
+
+.header__logo {
+  font-family: monospace;
+  position: absolute;
+  right: 10px;
+  font-size: 3vh;
+  color: #000000;
+}
+
+.header__text {
+
+}
+
 .content {
   text-align: center;
   margin: 30vh auto;
+}
+
+.content__cv__start {
+  margin-top: 120px;
+}
+
+.content__cv__h1 {
+  font-family: monospace;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.content__cv__h2 {
+  font-family: monospace;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.content__cv__p {
+  font-family: monospace;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.content__cv__p__link {
+  color: #000000;
+}
+
+.content__cv__end {
+  margin-bottom: 100px;
 }
 
 #typePad, .pre {
@@ -56,6 +113,8 @@ span {
   height: 8vh;
   bottom: 0;
   text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .footer__link {
@@ -65,6 +124,8 @@ span {
 .footer__link__img {
   display: inline-block;
   width: 35px;
+  margin-top: 8px;
+  margin-left: 10px;
 }
 
 .footer__logo {
@@ -79,4 +140,8 @@ span {
 
 .footer__logo__bold {
   font-weight: 400;
+}
+
+.bold {
+  font-weight: bolder;
 }
