@@ -166,6 +166,7 @@ span {
 
 .footer__link {
   line-height: 10vh;
+  text-decoration: none;
 }
 
 .footer__link__img {
