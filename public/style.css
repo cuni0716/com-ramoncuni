@@ -82,24 +82,32 @@ nav.header {
 /* DESKTOP AND TABLET */
 @media (min-width: 700px) {
   .content__cv {
-    max-width: 70%;
+    max-width: 100%;
   }
+}
+
+.content__cv__separator {
+  border-bottom: 1px solid #FFF;
+  max-width: 65%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 @media (min-width: 700px) {
   .content__cv__h1 {
+    text-align: center;
     font-family: monospace;
     font-size: 45px;
-    margin-left: 25%;
     margin-top: 80px;
   }
 }
 
 @media (min-width: 700px) {
   .content__cv__h2 {
+    text-align: center;
     font-family: monospace;
     font-size: 35px;
-    margin-left: 28%;
     margin-top: 20px;
   }
 }
@@ -110,6 +118,7 @@ nav.header {
     font-size: 20px;
     margin-left: 31%;
     margin-top: 20px;
+    max-width: 50%;
   }
 }
 
