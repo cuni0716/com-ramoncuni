@@ -45,6 +45,13 @@ nav.header {
   margin-top: 120px;
 }
 
+.content__cv__separator {
+  border-bottom: 1px solid #EEE;
+  max-width: 65%;
+  margin: auto;
+  margin-top: 50px;
+}
+
 /* MOBILE */
 @media (max-width: 700px) {
   .content__cv {
@@ -84,14 +91,6 @@ nav.header {
   .content__cv {
     max-width: 100%;
   }
-}
-
-.content__cv__separator {
-  border-bottom: 1px solid #FFF;
-  max-width: 65%;
-  margin: auto;
-  margin-top: 50px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 @media (min-width: 700px) {
