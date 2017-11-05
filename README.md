@@ -17,7 +17,7 @@ npm run dev
 npm run build
 
 # deploy to production
-firebase deploy
+npm run deploy
 
 # build for production and view the bundle analyzer report
 npm run build --report
