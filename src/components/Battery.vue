@@ -2,8 +2,7 @@
   <div class="battery">
     <h1>{{ title }}</h1>
     <h2>{{ power }}</h2>
-    <h2 class="small" v-if="charging">Currently charging</h2>
-    <h2 class="small" v-else>Not currently charging</h2>
+    <h2 class="small">{{ charging }}</h2>
   </div>
 </template>
 
@@ -19,11 +18,15 @@ export default {
   },
   methods: {
     getBatteryLevel() {
-      global.navigator.getBattery()
-        .then((battery) => {
-          this.power = `${Math.ceil(battery.level * 100)}%`;
-          this.charging = battery.charging;
-        });
+      if (!global.navigator.getBattery) {
+        this.power = 'Your browser does not support this feature';
+      } else {
+        global.navigator.getBattery()
+          .then((battery) => {
+            this.power = `${Math.ceil(battery.level * 100)}%`;
+            this.charging = battery.charging ? 'Currently charging' : 'Not currently charging';
+          });
+      }
     },
   },
   mounted() {
