@@ -1,0 +1,95 @@
+export const PHRASES = [
+  'Ramon Cuni.',
+  'a fullStack developer.',
+  'a nodeJS enthusiast.',
+  'a design lover.',
+];
+
+export const CURRENT_JOB = {
+  title: 'Current Job',
+  description: [{
+    description: 'Fullstack developer',
+    link: 'https://www.hundredrooms.com',
+    corporation: 'Hundredrooms',
+  }],
+};
+
+export const STUDIES = {
+  title: 'Studies',
+  descriptions: [
+    {
+      description: 'Senior Technician in Web Application Development',
+      link: 'http://www.iespaucasesnoves.cat/',
+      corporation: 'IES Pau Casesnoves',
+    },
+    {
+      description: 'Linux Essentials',
+      link: 'http://cs.lpi.org/caf/Xamman/certification/verify/LPI000353030/bx9nnbq9ac',
+      corporation: 'Linux Professional Institute',
+    },
+    {
+      description: 'Scrum Master training',
+      link: 'http://www.agilar.es/trainings?gclid=Cj0KEQjwmcTJBRCYirao6oWPyMsBEiQA9hQPbrHpYJBsMEOH-9pp3j65i3ly2eJX7g8kYmK3YYfPgsgaAm5h8P8HAQ',
+      corporation: 'Agilar',
+    },
+  ],
+};
+
+export const SKILLS = {
+  title: 'Skills',
+  description: [{
+    description: 'Javascript, NodeJS, Python, ReactJS, React Native, Stylus, BEM, Redux, ExpressJS, MySQL, PostgreSQL, Redis, Scrum, Git, MacOS, Linux, Team building',
+  }],
+};
+
+export const PROJECTS = {
+  title: 'Projects',
+  descriptions: [
+    {
+      description: 'Design of product, research, design, prototyping of new product',
+      link: 'https://www.kickstarter.com/projects/bindteam/bind?ref=discovery',
+      corporation: 'bind',
+    },
+    {
+      description: 'User interface design, database modeling, frontend, backend, devops, ...',
+      link: 'http://gestiofeines.esy.es',
+      corporation: 'TFG',
+    },
+  ],
+};
+
+export const ARTICLES = {
+  title: 'Articles',
+  descriptions: [{
+    description: '',
+    link: 'http://www.ticbeat.com/empresa-b2b/de-carpintero-a-desarrollador-en-hundredrooms-una-historia-de-reciclaje-laboral/',
+    corporation: 'TICBeat',
+  }],
+};
+
+export const FOOTER_LINKS = [
+  {
+    link: 'https://github.com/cuni0716',
+    image: 'https://firebasestorage.googleapis.com/v0/b/com-ramoncuni-1d649.appspot.com/o/github.png?alt=media&token=7b3e8ef6-65fb-4b38-bef4-88a43980dcec',
+    alt: 'Github',
+    target: '_blank',
+  },
+  {
+    link: 'https://es.linkedin.com/in/ramon-llompart-pol-645b4a59',
+    image: 'https://firebasestorage.googleapis.com/v0/b/com-ramoncuni-1d649.appspot.com/o/linkedin.png?alt=media&token=0032a291-390e-45f1-bb8d-f98b73acbd68',
+    alt: 'Linkedin',
+    target: '_blank',
+  },
+  {
+    link: 'https://twitter.com/cuni0716',
+    image: 'https://firebasestorage.googleapis.com/v0/b/com-ramoncuni-1d649.appspot.com/o/twitter.png?alt=media&token=80cce51c-4909-4b73-9b68-76a0677a1f95',
+    alt: 'Twitter',
+    target: '_blank',
+  },
+  {
+    link: 'mailto:mail@ramoncuni.com?subject=ramoncuni.com contact',
+    image: 'https://firebasestorage.googleapis.com/v0/b/com-ramoncuni-1d649.appspot.com/o/mail.png?alt=media&token=157d79dc-db18-461d-8b26-85b0e5b3f6ef',
+    alt: 'Email',
+    target: '_self',
+  },
+];
