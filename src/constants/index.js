@@ -2,7 +2,8 @@ export const PHRASES = [
   'Ramon Cuni.',
   'a fullStack developer.',
   'a nodeJS enthusiast.',
-  'a design lover.',
+  'a javascript lover.',
+  'an entrepreneur.',
 ];
 
 export const CURRENT_JOB = {

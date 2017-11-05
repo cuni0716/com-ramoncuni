@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <div class="pre">{{ pre }}</div>
+    <span class="pre">{{ pre }}</span>
     <span class="typewritter">{{ h1 }}</span>
     <span class="cursor blink">|</span>
   </div>
@@ -16,21 +16,25 @@ export default {
       pre: 'I am ',
       h1: '',
       phrase: 0,
-      letter: 0,
+      letter: 1,
+      goUp: true,
+      interval: null,
     };
   },
   methods: {
-    initTypewritter() {
-      this.letter += 1;
-      if (this.letter === (PHRASES[this.phrase].length + 30)) {
+    typewritter() {
+      this.letter = this.goUp ? this.letter += 1 : this.letter -= 1;
+      if (this.letter === (PHRASES[this.phrase].length + 15)) this.goUp = false;
+      if (this.letter === 0) {
+        this.goUp = true;
         if (this.phrase === PHRASES.length - 1) this.phrase = 0;
         else this.phrase += 1;
-        this.letter = 0;
       }
       this.h1 = PHRASES[this.phrase].substring(0, this.letter);
     },
   },
-  mounted() { setInterval(() => this.initTypewritter(), 100); },
+  mounted() { this.interval = setInterval(() => this.typewritter(), 100); },
+  destroyed() { clearInterval(this.interval); },
 };
 </script>
 
