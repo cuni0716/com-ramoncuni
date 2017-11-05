@@ -14,6 +14,7 @@ export default {
       title: 'Current power level',
       power: '100%',
       charging: null,
+      interval: null,
     };
   },
   methods: {
@@ -31,8 +32,9 @@ export default {
   },
   mounted() {
     this.getBatteryLevel();
-    setInterval(() => this.getBatteryLevel(), 10000);
+    this.interval = setInterval(() => this.getBatteryLevel(), 10000);
   },
+  destroyed() { clearInterval(this.interval); },
 };
 </script>
 

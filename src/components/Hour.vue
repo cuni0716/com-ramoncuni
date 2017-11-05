@@ -14,13 +14,15 @@ export default {
     return {
       title: 'Current time',
       time: this.getTime(),
+      interval: null,
     };
   },
   methods: {
     update() { this.time = this.getTime(); },
     getTime: () => format(new Date(), 'HH[:]mm[:]ss'),
   },
-  mounted() { setInterval(() => this.update(), 100); },
+  mounted() { this.interval = setInterval(() => this.update(), 100); },
+  destroyed() { clearInterval(this.interval); },
 };
 </script>
 

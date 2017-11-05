@@ -14,13 +14,15 @@ export default {
     return {
       title: 'Current date',
       date: this.getDate(),
+      interval: null,
     };
   },
   methods: {
     update() { this.time = this.getDate(); },
     getDate: () => format(new Date(), 'dddd, MMMM D, YYYY'),
   },
-  mounted() { setInterval(() => this.update(), 1000); },
+  mounted() { this.interval = setInterval(() => this.update(), 1000); },
+  destroyed() { clearInterval(this.interval); },
 };
 </script>
 
