@@ -37,7 +37,7 @@ h1 {
 }
 h2 {
   text-align: left;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #4c5c6b;
   margin-left: 10px;
 }
