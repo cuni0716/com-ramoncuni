@@ -3,7 +3,7 @@ export const PHRASES = [
   'a fullStack developer.',
   'a nodeJS enthusiast.',
   'a javascript lover.',
-  'an entrepreneur.',
+  'entrepreneur.',
 ];
 
 export const CURRENT_JOB = {
