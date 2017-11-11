@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import CV from './pages/CV';
 import Things from './pages/Things';
 
+
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
 
@@ -20,7 +21,4 @@ const router = new VueRouter({
 });
 
 /* eslint-disable no-new */
-new Vue({
-  router,
-  template: '<router-view></router-view>',
-}).$mount('#app');
+new Vue({ router, template: '<router-view></router-view>' }).$mount('#app');
