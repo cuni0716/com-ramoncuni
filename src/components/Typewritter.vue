@@ -8,6 +8,7 @@
 
 <script>
 import { PHRASES } from '../constants';
+import { gAnalyticsEvent } from '../helpers/analytics';
 
 export default {
   name: 'Typewritter',
@@ -27,8 +28,10 @@ export default {
       if (this.letter === (PHRASES[this.phrase].length + 15)) this.goUp = false;
       if (this.letter === 0) {
         this.goUp = true;
-        if (this.phrase === PHRASES.length - 1) this.phrase = 0;
-        else this.phrase += 1;
+        if (this.phrase === PHRASES.length - 1) {
+          this.phrase = 0;
+          gAnalyticsEvent('home', 'phrases', 'see-all');
+        } else this.phrase += 1;
       }
       this.h1 = PHRASES[this.phrase].substring(0, this.letter);
     },
