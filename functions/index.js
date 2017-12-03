@@ -12,14 +12,13 @@ exports.sitemap = functions.https.onRequest((req, res) => {
         <loc>https://ramoncuni.com/cv</loc>
         <priority>1.0</priority>
       </url>
-      <url>
-        <loc>https://ramoncuni.com/things</loc>
-        <priority>0.8</priority>
-      </url>
     </urlset>
   `) });
 });
 
 exports.robots = functions.https.onRequest((req, res) => {
-  res.format({ 'text/plain': () => res.send('User-agent: *') });
+  res.format({ 'text/plain': () => res.send(`
+    User-agent: *
+    Disallow: /things
+  `) });
 });
