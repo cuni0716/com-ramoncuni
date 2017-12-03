@@ -13,11 +13,20 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
+# serve functions on localhost
+npm run dev:functions
+
 # build for production with minification
 npm run build
 
-# deploy to production
+# deploy all to production (hosting, functions)
 npm run deploy
+
+# build and deploy site to production
+npm run deploy:site
+
+# build and deploy cloud functions
+npm run deploy:functions
 
 # build for production and view the bundle analyzer report
 npm run build --report
