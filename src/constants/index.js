@@ -56,6 +56,11 @@ export const PROJECTS = {
       link: 'http://gestiofeines.esy.es',
       corporation: 'TFG',
     },
+    {
+      description: 'Just backend and devops creating easily to use twitter bot',
+      link: 'https://github.com/cuni0716/twitter-bot',
+      corporation: 'RamonCuni',
+    },
   ],
 };
 
