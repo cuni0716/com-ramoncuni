@@ -50,16 +50,18 @@ export const PROJECTS = {
       description: 'Design of product, research, design, prototyping of new product',
       link: 'https://www.kickstarter.com/projects/bindteam/bind?ref=discovery',
       corporation: 'bind',
-    },
-    {
+    }, {
       description: 'User interface design, database modeling, frontend, backend, devops, ...',
       link: 'http://gestiofeines.esy.es',
       corporation: 'TFG',
-    },
-    {
+    }, {
       description: 'Just backend and devops creating easily to use twitter bot',
       link: 'https://github.com/cuni0716/twitter-bot',
-      corporation: 'RamonCuni',
+      corporation: 'GitHub',
+    }, {
+      description: 'Code an easy to use jenkins client for nodejs',
+      link: 'https://www.npmjs.com/package/node-jenkins',
+      corporation: 'Npm',
     },
   ],
 };
