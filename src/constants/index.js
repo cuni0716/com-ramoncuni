@@ -52,7 +52,7 @@ export const PROJECTS = {
       corporation: 'bind',
     }, {
       description: 'User interface design, database modeling, frontend, backend, devops, ...',
-      link: 'http://gestiofeines.esy.es',
+      link: 'http://hierro.barcelomulet.com',
       corporation: 'TFG',
     }, {
       description: 'Just backend and devops creating easily to use twitter bot',
