@@ -45,7 +45,7 @@ export const STUDIES = {
 export const SKILLS = {
   title: 'Skills',
   description: [{
-    description: 'Javascript, NodeJS, Python, ReactJS, React Native, Stylus, BEM, Redux, ExpressJS, MySQL, PostgreSQL, Redis, Scrum, Git, MacOS, Linux, Team building',
+    description: 'Javascript, NodeJS, Python, ReactJS, React Native, TypeORM, Babel, Webpack, Stylus, BEM, Redux, ExpressJS, MySQL, PostgreSQL, Redis, Scrum, Git, MacOS, Linux, Team building',
   }],
 };
 
