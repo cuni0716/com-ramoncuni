@@ -6,12 +6,20 @@ export const PHRASES = [
   'entrepreneur.',
 ];
 
+export const DESCRIPTION = {
+  title: 'Description',
+  description: [{
+    description: 'More than 3 years of experience in a tech startup company where I have been able to develop my passion to create and architect web-based systems. During my career I\'ve worked mostly with ES6 on both client and server using modern web frameworks like ReactJS, ReduxJS and ExpressJS. I also have enough knowledge to manage databases like MySQL, PostgreSQL or MongoDB. I\'m always learning new things and looking forward to share knowledge with others.',
+  }],
+};
+
 export const CURRENT_JOB = {
   title: 'Current Job',
   description: [{
-    description: 'Fullstack developer',
+    description: 'Fullstack developer and Lead Frontend',
     link: 'https://www.hundredrooms.com',
     corporation: 'Hundredrooms',
+    timing: 'since JAN 2016',
   }],
 };
 
@@ -22,13 +30,11 @@ export const STUDIES = {
       description: 'Senior Technician in Web Application Development',
       link: 'http://www.iespaucasesnoves.cat/',
       corporation: 'IES Pau Casesnoves',
-    },
-    {
+    }, {
       description: 'Linux Essentials',
       link: 'http://cs.lpi.org/caf/Xamman/certification/verify/LPI000353030/bx9nnbq9ac',
       corporation: 'Linux Professional Institute',
-    },
-    {
+    }, {
       description: 'Scrum Master training',
       link: 'http://www.agilar.es/trainings?gclid=Cj0KEQjwmcTJBRCYirao6oWPyMsBEiQA9hQPbrHpYJBsMEOH-9pp3j65i3ly2eJX7g8kYmK3YYfPgsgaAm5h8P8HAQ',
       corporation: 'Agilar',
@@ -81,20 +87,17 @@ export const FOOTER_LINKS = [
     image: 'https://firebasestorage.googleapis.com/v0/b/com-ramoncuni-1d649.appspot.com/o/github.png?alt=media&token=7b3e8ef6-65fb-4b38-bef4-88a43980dcec',
     alt: 'Github',
     target: '_blank',
-  },
-  {
+  }, {
     link: 'https://es.linkedin.com/in/ramon-llompart-pol-645b4a59',
     image: 'https://firebasestorage.googleapis.com/v0/b/com-ramoncuni-1d649.appspot.com/o/linkedin.png?alt=media&token=0032a291-390e-45f1-bb8d-f98b73acbd68',
     alt: 'Linkedin',
     target: '_blank',
-  },
-  {
+  }, {
     link: 'https://twitter.com/cuni0716',
     image: 'https://firebasestorage.googleapis.com/v0/b/com-ramoncuni-1d649.appspot.com/o/twitter.png?alt=media&token=80cce51c-4909-4b73-9b68-76a0677a1f95',
     alt: 'Twitter',
     target: '_blank',
-  },
-  {
+  }, {
     link: 'mailto:mail@ramoncuni.com?subject=ramoncuni.com contact',
     image: 'https://firebasestorage.googleapis.com/v0/b/com-ramoncuni-1d649.appspot.com/o/mail.png?alt=media&token=157d79dc-db18-461d-8b26-85b0e5b3f6ef',
     alt: 'Email',

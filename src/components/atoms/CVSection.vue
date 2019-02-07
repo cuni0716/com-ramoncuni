@@ -1,24 +1,14 @@
 <template>
   <div class="section">
     <h1>{{ title }}</h1>
-    <div
-      class="description"
-      v-bind:key="index"
-      v-for="(description, index) in descriptions"
-    >
-      <span>{{ description.description }}</span><br/>
-      <span
-        class="small"
-        v-if="description.corporation"
-      >
+    <div class="description" v-bind:key="index" v-for="(description, index) in descriptions">
+      <span>{{ description.description }}</span>
+      <br>
+      <span class="small" v-if="description.corporation">
         @
-        <a
-          :href="description.link"
-          target="_blank"
-        >
-          {{ description.corporation }}
-        </a>
+        <a :href="description.link" target="_blank">{{ description.corporation }}</a>
       </span>
+      <span class="timing" v-if="description.timing">{{ description.timing }}</span>
     </div>
   </div>
 </template>
@@ -26,7 +16,7 @@
 <script>
 export default {
   name: 'CVSection',
-  props: ['title', 'descriptions'],
+  props: ['title', 'descriptions', 'timing'],
 };
 </script>
 
@@ -35,6 +25,7 @@ export default {
   margin-bottom: 50px;
 }
 .description {
+  margin-top: 5px;
   margin-bottom: 20px;
   text-align: left;
 }
@@ -53,5 +44,9 @@ a {
 }
 .small {
   font-size: 1em;
+}
+.timing {
+  font-size: 1em;
+  color: #4c5c6b;
 }
 </style>

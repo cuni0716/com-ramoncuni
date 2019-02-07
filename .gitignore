@@ -15,5 +15,6 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+.firebase/
 
 package-lock.json
