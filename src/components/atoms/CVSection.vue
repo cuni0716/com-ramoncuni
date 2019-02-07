@@ -23,6 +23,7 @@ export default {
 <style scoped>
 .section {
   margin-bottom: 50px;
+  border-bottom: 1px solid #4c5c6b;
 }
 .description {
   margin-top: 5px;

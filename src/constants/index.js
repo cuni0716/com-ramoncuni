@@ -9,7 +9,7 @@ export const PHRASES = [
 export const DESCRIPTION = {
   title: 'Description',
   description: [{
-    description: 'More than 3 years of experience in a tech startup company where I have been able to develop my passion to create and architect web-based systems. During my career I\'ve worked mostly with ES6 on both client and server using modern web frameworks like ReactJS, ReduxJS and ExpressJS. I also have enough knowledge to manage databases like MySQL, PostgreSQL or MongoDB. I\'m always learning new things and looking forward to share knowledge with others.',
+    description: 'More than 3 years of experience in a tech startup company where I have been able to develop my passion to create and architect web-based systems. During my career I\'ve worked mostly with ES6 on both client and server using modern web frameworks like ReactJS, ReduxJS and ExpressJS. My favourite technology/framework is nodeJS with express. I have long experience writing microservices with such technology, communicating with databases (with and without ORM\'s), other API\'s (normally with axios), etc... I also have enough knowledge to manage databases like MySQL, PostgreSQL or MongoDB. I\'m always learning new things and looking forward to share knowledge with others.',
   }],
 };
 
