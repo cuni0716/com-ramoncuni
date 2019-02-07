@@ -5,7 +5,7 @@
       <span>{{ description.description }}</span>
       <br>
       <span class="small" v-if="description.corporation">
-        @
+        ·
         <a :href="description.link" target="_blank">{{ description.corporation }}</a>
       </span>
       <span class="timing" v-if="description.timing">{{ description.timing }}</span>
