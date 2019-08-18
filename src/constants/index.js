@@ -9,7 +9,7 @@ export const PHRASES = [
 export const DESCRIPTION = {
   title: 'Description',
   description: [{
-    description: 'More than 3 years of experience in a tech startup company where I have been able to develop my passion to create and architect web-based systems. During my career I\'ve worked mostly with ES6 on both client and server using modern web frameworks like ReactJS, ReduxJS and ExpressJS. My favourite technology/framework is nodeJS with express. I have long experience writing microservices with such technology, communicating with databases (with and without ORM\'s), other API\'s (normally with axios), etc... I also have enough knowledge to manage databases like MySQL, PostgreSQL or MongoDB. I\'m always learning new things and looking forward to share knowledge with others.',
+    description: 'More than 4 years of experience in a tech startup company where I have been able to develop my passion to create and architect web-based systems. During my career I\'ve worked mostly with ES6 on both client and server using modern web frameworks like ReactJS, ReduxJS and ExpressJS. My favourite technology/framework is nodeJS with express. I have long experience writing microservices with such technology, communicating with databases (with and without ORM\'s), other API\'s (normally with axios), etc... I also have enough knowledge to manage databases like MySQL, PostgreSQL or MongoDB. I\'m always learning new things and looking forward to share knowledge with others.',
   }],
 };
 
@@ -45,7 +45,7 @@ export const STUDIES = {
 export const SKILLS = {
   title: 'Skills',
   description: [{
-    description: 'Javascript, NodeJS, Python, ReactJS, React Native, TypeORM, Babel, Webpack, Stylus, BEM, Redux, ExpressJS, MySQL, PostgreSQL, Redis, Scrum, Git, MacOS, Linux, Team building',
+    description: 'Javascript, NodeJS, Python, ReactJS, TypeORM, Sass, BEM, Redux, ExpressJS, MySQL, PostgreSQL, Redis, Scrum, Git, MacOS, Linux, Team building, Angular, Typescript',
   }],
 };
 
@@ -68,6 +68,14 @@ export const PROJECTS = {
       description: 'Code an easy to use jenkins client for nodejs',
       link: 'https://www.npmjs.com/package/node-jenkins',
       corporation: 'Npm',
+    }, {
+      description: 'Idea development, product development. Design and code of everything, from database to layout, including an API, an admin backoffice application, scrappers, importers, deployment stuff, CI/CD, ...',
+      link: 'https://bagify.net/?utm_source=ramoncuni',
+      corporation: 'bagify',
+    }, {
+      description: 'Simply a good friend\'s website ☺️',
+      link: 'https://vidrierianova.com/?utm_source=ramoncuni',
+      corporation: 'Vidrieria Nova',
     },
   ],
 };
