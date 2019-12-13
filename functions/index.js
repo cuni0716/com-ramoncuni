@@ -11,8 +11,10 @@ exports.sitemap = functions.https.onRequest((req, res) =>
 
 
 exports.robots = functions.https.onRequest((req, res) => {
-  res.setHeader("Access-Control-Allow-Origin", ["*"]);
-  res.setHeader("Access-Control-Allow-Headers", ["accept", "Content-Type", "x-initialized-at"]);
-  res.setHeader("Access-Control-Allow-Methods", ["GET"]);
-  return res.format({ 'text/plain': () => res.send('User-agent: *\nDisallow: /things') })
+  return res.format({ 'text/plain': () => {
+    res.setHeader("Access-Control-Allow-Origin", ["*"]);
+    res.setHeader("Access-Control-Allow-Headers", ["accept", "Content-Type", "x-initialized-at"]);
+    res.setHeader("Access-Control-Allow-Methods", ["GET"]);
+    res.send('User-agent: *\nDisallow: /things');
+  } })
 });
