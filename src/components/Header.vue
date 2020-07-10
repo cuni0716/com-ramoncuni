@@ -8,10 +8,6 @@
       <router-link to="/cv">
         CV
       </router-link>
-      <span class="bold margin">|</span>
-      <router-link to="/things">
-        Things
-      </router-link>
     </span>
   </nav>
 </template>
