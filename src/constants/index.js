@@ -16,10 +16,10 @@ export const DESCRIPTION = {
 export const CURRENT_JOB = {
   title: 'Current Job',
   description: [{
-    description: 'Fullstack developer and Lead Frontend',
-    link: 'https://www.hundredrooms.com',
-    corporation: 'Hundredrooms',
-    timing: 'since JAN 2016',
+    description: 'Freelance fullstack developer',
+    link: 'https://coara.co',
+    corporation: 'Coara',
+    timing: 'since APR 2018',
   }],
 };
 
@@ -45,7 +45,7 @@ export const STUDIES = {
 export const SKILLS = {
   title: 'Skills',
   description: [{
-    description: 'Javascript, NodeJS, Python, ReactJS, TypeORM, Sass, BEM, Redux, ExpressJS, MySQL, PostgreSQL, Redis, Scrum, Git, MacOS, Linux, Team building, Angular, Typescript',
+    description: 'Javascript, NodeJS, Python, ReactJS, TypeORM, Sass, BEM, Redux, NestJS, MySQL, PostgreSQL, Redis, Scrum, Git, MacOS, Linux, Team building, Angular, Typescript, ionic',
   }],
 };
 

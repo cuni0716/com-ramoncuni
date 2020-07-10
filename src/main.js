@@ -4,7 +4,6 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from './pages/Home';
 import CV from './pages/CV';
-import Things from './pages/Things';
 
 
 Vue.config.productionTip = false;
@@ -16,7 +15,6 @@ const router = new VueRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/cv', component: CV },
-    { path: '/things', component: Things },
   ],
 });
 
